@@ -1,207 +1,242 @@
-    body {
-    background-color: lightblue;
-    color: black;
-    /* font-size: 50px;
+                body {
+                    background-color: lightblue;
+                    color: black;
+                    /* font-size: 50px;
     font-family: 'Times New Roman', Times, serif; */
-}
-
-a {
-    color: white;
-}
-
-#background {
-    /* background-image: url(img/world-polit-med-tmsworld.jpg); */
-    height: 5%;
-    width: 100vh;
-}
-
-#firstdiv {
-    z-index: 50;
-    position: fixed;
-    left: 100px;
-    height: 300px;
-    width: 1100px;
-    text-align: center;
-    background-color: #00001c;
-    border: orangered solid 7px;
-    color: white;
-    font-size: 60px;
-    font-family: "Ubuntu", serif;
-    font-weight: bold;
-    border-radius: 25px;
-}
-
-#navbar {
-    z-index: 999;
-    position: fixed;
-    top: 120px;
-    left: 350px;
-    height: 50px;
-    width: 600px;
-    background-color: lightyellow;
-    border: orangered double 10px;
-    font-size: 18px;
-    font-family: "Tlwg Typo, Bold", sans-serif;
-}
-
-#ourlist li {
-    display: inline;
-    padding: 0px 15px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-/* Change the link color to #111 (black) on hover */
-
-li a:hover {
-    background-color: orangered;
-}
-
-
-/* #footer {
+                }
+                
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+                
+                #background {
+                    /* background-image: url(img/world-polit-med-tmsworld.jpg); */
+                    height: 5%;
+                    width: 100vh;
+                }
+                
+                #firstdiv {
+                    z-index: 50;
+                    position: fixed;
+                    left: 100px;
+                    height: 300px;
+                    width: 1100px;
+                    text-align: center;
+                    background-color: #00001c;
+                    border: orangered solid 7px;
+                    color: white;
+                    font-size: 60px;
+                    font-family: "Ubuntu", serif;
+                    font-weight: bold;
+                    border-radius: 25px;
+                }
+                
+                #navbar {
+                    z-index: 999;
+                    position: fixed;
+                    top: 120px;
+                    left: 350px;
+                    height: 50px;
+                    width: 600px;
+                    background-color: lightyellow;
+                    border: orangered double 10px;
+                    font-size: 18px;
+                    font-family: "Tlwg Typo, Bold", sans-serif;
+                }
+                
+                #ourlist li {
+                    display: inline;
+                    padding: 0px 15px;
+                }
+                
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                }
+                
+                li {
+                    float: left;
+                }
+                
+                li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+                /* Change the link color to #111 (black) on hover */
+                
+                li a:hover {
+                    background-color: orangered;
+                }
+                /* #footer {
     padding-top: 800px;
     text-align: center;
     position: relative;
     bottom: 0px;
 } */
-
-footer {
-    z-index: 1;
-    width: 100%;
-    bottom: 10;
-    position: fixed;
-    color: orangered;
-    font-weight: bold;
-}
-
-footer {
-    z-index: 1;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#header {
-    background-color: #00001c;
-    position: relative;
-    color: white;
-    left: 100px;
-    height: 150px;
-    width: 1100px;
-    font-size: 60;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: bold;
-    border: orangered solid 5px;
-    border-radius: 25px;
-}
-
-#info {
-    padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    20px;
-    background-color: #00001c;
-    color: white;
-    left: 250px;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    top: 130px;
-    border-radius: 200px;
-    text-align: center;
-    font-size: 30px;
-    border: orangered solid;
-    transform: rotate (-20deg);
-}
-
-#frheader {
-    background-color: #00001c;
-    position: relative;
-    color: white;
-    left: 100px;
-    height: 150px;
-    width: 1100px;
-    font-size: 60;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: bold;
-    border: orangered solid 5px;
-    border-radius: 25px;
-}
-
-#frinfo {
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-right: 20px;
-    20px;
-    background-color: #00001c;
-    color: white;
-    left: 600px;
-    height: 350px;
-    width: 380px;
-    position: relative;
-    top: 75px;
-    border-radius: 250px;
-    text-align: center;
-    font-size: 30px;
-    border: orangered solid;
-    transform: rotate (-20deg);
-}
-
-#google_translate_element {
-    color: white;
-    background-color: #00001c;
-    position: fixed;
-}
-
-#nwheader {
-    background-color: #00001c;
-    position: relative;
-    color: white;
-    left: 100px;
-    height: 150px;
-    width: 1100px;
-    font-size: 60;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: bold;
-    border: orangered solid 5px;
-    border-radius: 25px;
-}
-
-#nwinfo {
-    padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    20px;
-    background-color: #00001c;
-    color: white;
-    left: 250px;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    top: 130px;
-    border-radius: 200px;
-    text-align: center;
-    font-size: 25px;
-    border: orangered solid;
-    transform: rotate (-20deg);
+                
+                footer {
+                    z-index: 1;
+                    width: 100%;
+                    bottom: 10;
+                    position: fixed;
+                    color: orangered;
+                    font-weight: bold;
+                }
+                
+                footer {
+                    z-index: 1;
+                    padding-top: 50px;
+                    text-align: center;
+                }
+                
+                #header {
+                    background-color: #00001c;
+                    position: relative;
+                    color: white;
+                    left: 100px;
+                    height: 150px;
+                    width: 1100px;
+                    font-size: 60;
+                    text-align: center;
+                    font-family: "Ubuntu", sans-serif;
+                    font-weight: bold;
+                    border: orangered solid 5px;
+                    border-radius: 25px;
+                }
+                
+                #info {
+                    padding-top: 60px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    20px;
+                    background-color: #00001c;
+                    color: white;
+                    left: 250px;
+                    height: 300px;
+                    width: 300px;
+                    position: relative;
+                    top: 130px;
+                    border-radius: 200px;
+                    text-align: center;
+                    font-size: 30px;
+                    border: orangered solid;
+                    transform: rotate (-20deg);
+                }
+                
+                #frheader {
+                    background-color: #00001c;
+                    position: relative;
+                    color: white;
+                    left: 100px;
+                    height: 150px;
+                    width: 1100px;
+                    font-size: 60;
+                    text-align: center;
+                    font-family: "Ubuntu", sans-serif;
+                    font-weight: bold;
+                    border: orangered solid 5px;
+                    border-radius: 25px;
+                }
+                
+                #frinfo {
+                    padding-top: 90px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    20px;
+                    background-color: #00001c;
+                    color: white;
+                    left: 600px;
+                    height: 350px;
+                    width: 380px;
+                    position: relative;
+                    top: 75px;
+                    border-radius: 250px;
+                    text-align: center;
+                    font-size: 30px;
+                    border: orangered solid;
+                    transform: rotate (-20deg);
+                }
+                
+                #google_translate_element {
+                    color: white;
+                    background-color: #00001c;
+                    position: fixed;
+                    bottom: 50px;
+                }
+                
+                #nwheader {
+                    background-color: #00001c;
+                    position: relative;
+                    color: white;
+                    left: 100px;
+                    height: 150px;
+                    width: 1100px;
+                    font-size: 60;
+                    text-align: center;
+                    font-family: "Ubuntu", sans-serif;
+                    font-weight: bold;
+                    border: orangered solid 5px;
+                    border-radius: 25px;
+                }
+                
+                #nwinfo {
+                    padding-top: 60px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    20px;
+                    background-color: #00001c;
+                    color: white;
+                    left: 250px;
+                    height: 300px;
+                    width: 300px;
+                    position: relative;
+                    top: 130px;
+                    border-radius: 200px;
+                    text-align: center;
+                    font-size: 25px;
+                    border: orangered solid;
+                    transform: rotate (-20deg);
+                }
+                
+                #navbarnw {
+                    position: relative;
+                    top: 50px;
+                    left: 240px;
+                    height: 50px;
+                    width: 600px;
+                    background-color: lightyellow;
+                    border: orangered double 10px;
+                    font-size: 18px;
+                    font-family: "Tlwg Typo, Bold", sans-serif;
+                }
+                
+                #navbarfr {
+                    position: relative;
+                    top: 50px;
+                    left: 240px;
+                    height: 50px;
+                    width: 600px;
+                    background-color: lightyellow;
+                    border: orangered double 10px;
+                    font-size: 18px;
+                    font-family: "Tlwg Typo, Bold", sans-serif;
+                }
+                
+                #navbares {
+                    position: relative;
+                    top: 50px;
+                    left: 240px;
+                    height: 50px;
+                    width: 600px;
+                    background-color: lightyellow;
+                    border: orangered double 10px;
+                    font-size: 18px;
+                    font-family: "Tlwg Typo, Bold", sans-serif;
+                }
